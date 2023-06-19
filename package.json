@@ -1,0 +1,33 @@
+{
+  "name": "astro-sst",
+  "description": "Adapter for Astro apps to work on CheckoutJoy Storefront.",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "CheckoutJoy",
+    "url": "https://checkoutjoy.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdwt/checkoutjoy-astro-ssr.git",
+    "directory": "packages/astro-sst"
+  },
+  "keywords": [
+    "withastro",
+    "astro-adapter"
+  ],
+  "bugs": "https://github.com/mdwt/checkoutjoy-astro-ssr.git",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@astrojs/webapi": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.112",
+    "@types/html-escaper": "^3.0.0",
+    "@types/node": "^20.3.1",
+    "astro": "^2.1.3"
+  }
+}
